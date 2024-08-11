@@ -1,0 +1,12 @@
+Hello. I'm an user interested in your project. The issue I'm having is that when I try to download a comic, the following error appears:
+
+File "C:\Users\samrv\MUR-master\mur.py", line 204, in <module>
+    main()
+File "C:\Users\samrv\MUR-master\mur.py", line 143, in main
+    parse_cookies(cd)
+File "C:\Users\samrv\MUR-master\mur.py", line 74, in parse_cookies
+    out_cookies[field[5]] = field[6]
+                            ~~~~~^^^
+IndexError: list index out of range
+
+I wonder if there's a solution for it. I await any response
